@@ -1,0 +1,48 @@
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+#wrap{
+    width: 960px;
+    margin: auto;
+    background: rgb(142, 160, 194);
+    padding: 1%;
+}
+
+header nav ul{
+    list-style: none;
+    padding: 0%;
+}
+
+header nav ul li{
+    display: inline;
+    text-decoration: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(6, 94, 134);
+}
+
+header nav ul li a:hover{
+    text-decoration: underline;
+}
+
+#content{
+    float: left;
+    background: plum;
+    width: 70%;
+}
+#sidebar{
+    float: right;
+    background: lightblue;
+    width: 30%;
+}
+
+#sidebar ul{
+    list-style: none;
+}
+
+footer{
+    clear: both;
+}
